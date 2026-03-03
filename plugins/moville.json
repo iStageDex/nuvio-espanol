@@ -1,15 +1,20 @@
 {
-  "provider": "nuvio-espanol",
-  "name": "Nuvio Español",
-  "description": "Series en español",
-  "version": "1.0",
+  "id": "moville",
+  "name": "Los Misterios de Moville",
+  "description": "Serie completa en español",
   "type": "provider",
-  "catalog": [
+  "catalogs": [
     {
+      "id": "moville-series",
       "name": "Los Misterios de Moville",
-      "description": "Serie completa en español",
+      "type": "series"
+    }
+  ],
+  "content": [
+    {
+      "id": "moville",
+      "title": "Los Misterios de Moville",
       "type": "series",
-      "enabled": true,
       "episodes": [
         {
           "season": 1,

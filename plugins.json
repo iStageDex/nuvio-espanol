@@ -1,8 +1,10 @@
 {
   "plugins": [
     {
-      "name": "Los Misterios de Moville",
-      "description": "Serie completa en español",
+      "id": "nuvio-espanol",
+      "name": "Nuvio Español",
+      "description": "Series en español",
+      "type": "provider",
       "url": "https://raw.githubusercontent.com/iStageDex/nuvio-espanol/main/plugins/moville.json"
     }
   ]

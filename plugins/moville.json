@@ -2,6 +2,8 @@
   "name": "Los Misterios de Moville",
   "description": "Serie completa en español",
   "type": "series",
+  "provider": "nuvio-espanol",
+  "enabled": true,
   "episodes": [
     {
       "season": 1,
@@ -81,7 +83,6 @@
       "title": "Mira, una vaca que maulla",
       "url": "https://archive.org/download/los-misterios-de-moville-serie-completa/Los%20misterios%20de%20Moville_S01E13_S01_E13%20-%20Mira%2C%20una%20vaca%20que%20maulla.mp4"
     },
-
     {
       "season": 2,
       "episode": 1,

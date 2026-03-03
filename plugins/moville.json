@@ -4,18 +4,27 @@
   "version": "1.0.0",
   "resources": ["stream"],
   "types": ["series"],
-  "catalogs": [
-    {
-      "type": "series",
-      "id": "moville",
-      "name": "Los Misterios de Moville"
-    }
-  ],
   "streams": [
     {
-      "name": "Episode 1",
-      "title": "Latino",
-      "url": "https://ia800206.us.archive.org/26/items/los-misterios-de-moville-serie-completa/Los%20misterios%20de%20Moville_S01E01_S01_E01%20-%20Los%20cazadores%20del%20suspensorio%20perdido.mp4"
+      "name": "S01E01 - Los cazadores del suspensorio perdido",
+      "season": 1,
+      "episode": 1,
+      "url": "https://ia800206.us.archive.org/26/items/los-misterios-de-moville-serie-completa/Los%20misterios%20de%20Moville_S01E01_S01_E01%20-%20Los%20cazadores%20del%20suspensorio%20perdido.mp4",
+      "language": "es"
+    },
+    {
+      "name": "S01E02 - Otro episodio",
+      "season": 1,
+      "episode": 2,
+      "url": "https://ia800206.us.archive.org/26/items/los-misterios-de-moville-serie-completa/Los%20misterios%20de%20Moville_S01E02_S01_E02.mp4",
+      "language": "es"
+    },
+    {
+      "name": "S02E01 - Primer episodio S02",
+      "season": 2,
+      "episode": 1,
+      "url": "https://ia800206.us.archive.org/26/items/los-misterios-de-moville-serie-completa/Los%20misterios%20de%20Moville_S02E01_S02_E01.mp4",
+      "language": "es"
     }
   ]
 }

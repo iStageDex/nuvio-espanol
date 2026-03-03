@@ -1,8 +1,9 @@
 {
-  "name": "Repo Español Legal",
-  "description": "Series gratis en español (Internet Archive)",
-  "manifestVersion": 1,
-  "pluginLists": [
-    "https://ia800206.us.archive.org/26/items/los-misterios-de-moville-serie-completa/Los%20misterios%20de%20Moville_S01E01_S01_E01%20-%20Los%20cazadores%20del%20suspensorio%20perdido.mp4"
+  "addons": [
+    {
+      "name": "Nuvio Español",
+      "description": "Series gratis en español",
+      "url": "https://raw.githubusercontent.com/iStageDex/nuvio-espanol/main/plugins/moville.json"
+    }
   ]
 }

@@ -1,9 +1,5 @@
 {
-  "addons": [
-    {
-      "name": "Nuvio Español",
-      "description": "Series gratis en español",
-      "url": "https://raw.githubusercontent.com/iStageDex/nuvio-espanol/main/plugins/moville.json"
-    }
-  ]
+  "name": "Nuvio Español",
+  "description": "Series gratis en español",
+  "plugins": "https://raw.githubusercontent.com/iStageDex/nuvio-espanol/main/plugins.json"
 }

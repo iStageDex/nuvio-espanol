@@ -1,15 +1,12 @@
-{
-  "plugins": [
-    {
-      "id": "moville",
-      "name": "Los Misterios de Moville",
-      "description": "Serie completa en español",
-      "version": "1.0.0",
-      "icon": "https://via.placeholder.com/150",
-      "types": ["tv"],
-      "language": "es",
-      "active": true,
-      "manifest": "https://raw.githubusercontent.com/iStageDex/nuvio-espanol/main/plugins/moville.json"
-    }
-  ]
-}
+[
+  {
+    "id": "moville",
+    "name": "Los Misterios de Moville",
+    "description": "Serie completa en español",
+    "version": "1.0.0",
+    "icon": "https://via.placeholder.com/150",
+    "types": ["tv"],
+    "language": "es",
+    "manifest": "https://raw.githubusercontent.com/iStageDex/nuvio-espanol/main/plugins/moville.js"
+  }
+]

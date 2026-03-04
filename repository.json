@@ -1,5 +1,6 @@
 {
   "name": "Nuvio Español",
   "description": "Series gratis en español",
+  "version": "1.0.0",
   "plugins": "https://raw.githubusercontent.com/iStageDex/nuvio-espanol/main/plugins.json"
 }

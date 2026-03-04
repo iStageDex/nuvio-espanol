@@ -5,8 +5,11 @@
     "description": "Serie completa en español",
     "version": "1.0.0",
     "icon": "https://via.placeholder.com/150",
+    "type": "tv",
     "types": ["tv"],
     "language": "es",
+    "languages": ["es"],
+    "active": true,
     "manifest": "https://raw.githubusercontent.com/iStageDex/nuvio-espanol/main/plugins/moville.js"
   }
 ]

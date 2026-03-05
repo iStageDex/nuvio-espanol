@@ -1,0 +1,19 @@
+{
+  "name": "Nuvio Español",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "moville",
+      "name": "Los Misterios de Moville",
+      "description": "Serie completa en español",
+      "version": "1.0.0",
+      "author": "iStageDex",
+      "supportedTypes": ["tv"],
+      "filename": "providers/moville.js",
+      "enabled": true,
+      "formats": ["mp4"],
+      "logo": "https://via.placeholder.com/150",
+      "contentLanguage": ["es"]
+    }
+  ]
+}

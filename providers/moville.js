@@ -56,11 +56,9 @@ var episodes = {
 function getStreams(tmdbId, mediaType, season, episode) {
   var key = season + '-' + episode;
   var url = episodes[key];
-
   if (!url) {
     return Promise.resolve([]);
   }
-
   return Promise.resolve([
     {
       name: 'Moville ES',
@@ -69,4 +67,9 @@ function getStreams(tmdbId, mediaType, season, episode) {
       quality: 'SD',
     },
   ]);
+}
+
+// Export for Nuvio scraper runtime
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { getStreams: getStreams };
 }
